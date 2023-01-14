@@ -73,7 +73,6 @@ void benchmark(T& tree, const uint iterations) {
     }
 
     // RANDOM SHUFFLE
-    //auto rng = std::default_random_engine {};
     std::random_device rd;
     std::mt19937 rng(rd());
     std::shuffle(std::begin(objects), std::end(objects), rng);
